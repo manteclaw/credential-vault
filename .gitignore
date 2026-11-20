@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets — never commit these
+.env
+.vault/
+.shards/
+.state/
+keys.enc
+*.enc
+
+# Logs / reports
+*.log

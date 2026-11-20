@@ -1,0 +1,9 @@
+cryptography>=42
+# Optional: Shamir libraries. shamir-split.py has a pure-Python GF(2^8)
+# fallback and works without either of these.
+# secretsharing>=0.2
+# shamir>=0.1
+# Optional: only needed if you bring your own master-seed.py with wallet
+# derivation (verify-backup.py's wallet-derivation step). Not used by the
+# five scripts in this repo as shipped.
+# eth-account>=0.11
